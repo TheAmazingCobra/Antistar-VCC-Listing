@@ -4,10 +4,13 @@ on:
   workflow_dispatch:
   push:
     branches: main
-    paths: source.json
-  # the packages release from their own repos, so check for new releases every hour
+    paths:
+      - source.json
+      - .github/workflows/build-listing.yml
+  # the packages release from their own repos, so check for new releases every hour.
+  # not on the hour, github drops a lot of those runs when it's busy
   schedule:
-    - cron: '0 * * * *'
+    - cron: '23 * * * *'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
