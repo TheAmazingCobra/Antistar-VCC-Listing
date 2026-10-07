@@ -1,0 +1,19 @@
+{
+    "name": "Antistar",
+    "id": "com.antistar.listing",
+    "url": "https://theamazingcobra.github.io/Antistar-VCC-Listing/index.json",
+    "author": {
+        "name": "Antistar",
+        "url": "https://antistar.gg"
+    },
+    "description": "Antistar's Unity tools: the support window that comes with our packs, and the team's pack exporter.",
+    "infoLink": {
+        "url": "https://github.com/TheAmazingCobra/Antistar-VCC-Listing",
+        "text": "View on GitHub"
+    },
+    "bannerUrl": "banner.jpg",
+    "githubRepos": [
+        "TheAmazingCobra/Antistar-VRC-Tooltip",
+        "TheAmazingCobra/Antistar-VRC-Exporter"
+    ]
+}
